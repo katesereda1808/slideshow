@@ -3,94 +3,115 @@ html, body{
     /* width:100%; */
     height: 100%;
     background-size: 100%;
+    
 }
-.slide{
+.slide1{
     font-family: 'Montserrat', sans-serif;
     width: 100vw;
     height: 100vh;
-    background-image: url("./images/bg.jpg");
-    background-size: 100%;
+    background-image: url("./images1/bg1.jpg");
     position: relative;
     box-sizing: border-box;
     background-size: 100%;
+    background-repeat: no-repeat;
 
 }
-.text{
+.text__slide1{
     position: absolute;
-    top: 17%;
+    top: 20%;
     left: 5%;
 }
-.big_text{
-    font-size: 18vh;
+
+
+.big_text__slide1{
+    font-size: 500%;
 
 }
-.bold{
+.bold__slide1{
     font-weight: 600;
 }
-.pink{
+.pink__slide1{
     position: absolute;
-    width: 50%;
+    width: 55%;
     
-    top: 15%;
-    right: 0px;
+    top: 16%;
+    right: 13%;
 }
 
-.blue1{
+.blue1__slide1{
     position: relative;
-    margin-top: 3%;
+    top: 9%;
     width: 10%;
 }
 
-#blue2{
+#blue2__slide1{
     width: 6%;
     position: absolute;
-    right: 20%;
-    top: 10%;
+    right: 30%;
+    top: 7%;
     animation: blue2 3s infinite linear alternate;
 
 }
+#blue3__slide1{
+    width: 12%;
+    position: absolute;
+    top: 15%;
+    right: 20%;
+    animation: blue3 4s infinite linear alternate;
+}
 
-#pink2{
+#pink2__slide1{
     width: 30%;
-    top: 66%;
+    bottom: 8%;
     left: 0px;
     position: absolute;
 }
-#blue5{
+#blue5__slide1{
     width: 20%;
     bottom: 0px;
     right: 25%;
     position: absolute;
     animation: blue5 4s infinite linear alternate;
 }
-#blue5blurred{
+#blue5blurred__slide1{
     width: 10%;
     position: absolute;
     bottom: 10%;
+    left: 35%;
 }
-#blue2blurred{
+#blue2blurred__slide1{
     width: 7%;
     position: absolute;
     right: 5%;
+    top:5%;
 }
 
-#blue4{
+#blue4__slide1{
     width: 8%;
     position: absolute;
-    bottom: 30%;
-    left: 5%;
+    bottom: 35%;
+    left: 0%;
     animation: blue2 3s infinite linear alternate;
-
-
 }
-
-#blue3{
-    width: 12%;
+#btn__slide1__slide1{
+    height: 9.5%;
     position: absolute;
-    top: 15%;
-    right: 7%;
-    animation: blue3 4s infinite linear alternate;
+    bottom: 41%;
+    right: 25%;
 }
+#icon{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 3%;
+    height: 4%;
+}
+#logo{
+    position: absolute;
+    left: 10%;
+    height: 2%;
+    bottom: 2%;
+}
+
 
 @keyframes blue2 {
     from{ 

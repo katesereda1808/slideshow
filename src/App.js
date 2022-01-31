@@ -1,11 +1,20 @@
-import Slider from "./components/Slider";
-import pink from "./components/images/pink_sperm_1.png";
+// import Slider from "./components/Slider";
+import Slide1 from "./components/slide1/Slide1";
+import Slide2 from "./components/slide2/Slide2";
+import Slide3 from "./components/slide3/Slide3";
+import MainPage from "./components/main-page/MainPage";
+
 import "./App.css";
-import Slide1 from "./components/Slide1";
+
+
 function App() {
   return (
     <div className="App">
-      <Slide1/>
+      {/* <Slider/> */}
+      {/* <Slide1/>
+      <Slide2/>
+      <Slide3/> */}
+      <MainPage/>
 
     </div>
   );

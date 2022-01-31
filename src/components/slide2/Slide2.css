@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+.slide2{
+    background-image: url(./images2/bg2.png);
+    background-size: 100%;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+#icon{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 3%;
+    height: 4%;
+}
+
+#logo{
+    position: absolute;
+    left: 10%;
+    height: 2%;
+    bottom: 2%;
+}
+.text__slide2{
+    font-size: 200%;
+    font-weight: 400;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.text__container__slide2{
+    position: absolute;
+    box-sizing: border-box;
+    line-height: 150%;
+    font-size: 150%;
+    background-color: white;
+    width: 70%;
+    height: 50%;
+    overflow: scroll;
+    left: 15%;
+    margin-top: 5%;
+    padding: 3%;
+    /* как сделать паддинг сверху и снизу? */
+    border-radius: 40px;
+    -webkit-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
+    -moz-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
+    box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
+}
+#pink1__slide2{
+    position: absolute;
+    width: 60%;
+    top: 18%;
+    right: 0%;
+    animation: pink2 6s forwards;
+}
+#pink2__slide2{
+    position: absolute;
+    width: 50%;
+    top: 13%;
+    right: -8%;
+    animation: pink2 8s forwards;
+}
+#pink3__slide2{
+    position: absolute;
+    width: 30%;
+    top: 10%;
+    right: -4%;
+    animation: pink2 6s forwards;
+}
+#pink4__slide2{
+    position: absolute;
+    width: 15%;
+    bottom: 30%;
+    right: 0%;
+    animation: pink2 6s forwards;
+}
+#pink5__slide2{
+    position: absolute;
+    width: 15%;
+    bottom: 16%;
+    right: 0%;
+    animation: pink2 6s forwards;
+}
+@keyframes pink2 {
+    from{ 
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}

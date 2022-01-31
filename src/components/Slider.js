@@ -1,24 +1,23 @@
-import React from "react";
-import "./Slider.css";
-import pink from "./images/pink_sperm_1.png";
-// import pink from "./images/pinkSperm.svg";
-function Slider(){
-    let sliderArr = [1,2,3,4,5]
-    return(
+// import React from "react";
+// import "./Slider.css";
+// import Slide1 from "./slide1/Slide1";
+// import Slide2 from "./slide2/Slide2";
+// import Slide3 from "./slide3/Slide3";
+
+// function Slider(){
+//     let sliderArr = [Slide1, Slide2, Slide3]
+//     return(
         
-        <div className="slider">
-             <img className="img" src={pink}/>
-            {sliderArr.map((item, index)=>{
-              return(
-                <div key={index} className="slide">
-                    {item}
+//         <div className="slider">
+//             {sliderArr.map((item, index)=>{
+//               return(
+//                 <div key={index} className="slide">
+//                     {item}
                    
-                </div>
-              )
-            })}
-            <button id="goLeft">left</button>
-            <button id="goRight">right</button>
-        </div>
-    )
-}
-export default Slider;
+//                 </div>
+//               )
+//             })}
+//         </div>
+//     )
+// }
+// export default Slider;

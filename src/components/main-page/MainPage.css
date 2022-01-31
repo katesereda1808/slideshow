@@ -1,0 +1,4 @@
+.mainPage{
+    display: flex;
+    overflow-x: scroll;
+}
