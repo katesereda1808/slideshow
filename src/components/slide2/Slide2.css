@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
 .slide2{
     background-image: url(./images2/bg2.png);
     background-size: 100%;
@@ -9,15 +10,15 @@
     font-family: 'Montserrat', sans-serif;
     position: relative;
     overflow: hidden;
+    min-width: 1024px;
+    max-height: 768px;
 }
-
 #icon{
     position: absolute;
     margin-left: 10%;
     margin-top: 3%;
     height: 4%;
 }
-
 #logo{
     position: absolute;
     left: 10%;
@@ -42,7 +43,6 @@
     left: 15%;
     margin-top: 5%;
     padding: 3%;
-    /* как сделать паддинг сверху и снизу? */
     border-radius: 40px;
     -webkit-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
     -moz-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
@@ -53,36 +53,37 @@
     width: 60%;
     top: 18%;
     right: 0%;
-    animation: pink2 6s forwards;
+    animation: pink2 12s forwards;
 }
 #pink2__slide2{
     position: absolute;
     width: 50%;
     top: 13%;
     right: -8%;
-    animation: pink2 8s forwards;
+    animation: pink2 11s forwards;
 }
 #pink3__slide2{
     position: absolute;
     width: 30%;
     top: 10%;
     right: -4%;
-    animation: pink2 6s forwards;
+    animation: pink2 13s forwards;
 }
 #pink4__slide2{
     position: absolute;
     width: 15%;
     bottom: 30%;
     right: 0%;
-    animation: pink2 6s forwards;
+    animation: pink2 8s forwards;
 }
 #pink5__slide2{
     position: absolute;
     width: 15%;
     bottom: 16%;
     right: 0%;
-    animation: pink2 6s forwards;
+    animation: pink2 8s forwards;
 }
+
 @keyframes pink2 {
     from{ 
         transform: translateX(100%);

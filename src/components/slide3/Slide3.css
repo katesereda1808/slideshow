@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap');
+
 .slide3{
     background-image: url("./images3/bg3.png");
     background-size: 100%;
@@ -9,6 +10,8 @@
     font-family: 'Montserrat', sans-serif;
     position: relative;
     overflow: hidden;
+    min-width: 1024px;
+    max-height: 768px;
 }
 #icon{
     position: absolute;
@@ -16,7 +19,6 @@
     margin-top: 3%;
     height: 4%;
 }
-
 #logo{
     position: absolute;
     left: 10%;
@@ -28,21 +30,13 @@
     position: absolute;
     bottom: 42%;
     right: 16%;
-
 }
 #plate__slide3{
     width: 8%;
     position: absolute;
     bottom: 42%;
     right: 54%;
-
 }
-
-
-
-
-
-
 .header1__slide3{
     position: absolute;
     left: 35.7%;
@@ -58,27 +52,19 @@
 #bold__slide3{
     font-weight: 600;
 }
-
-
 #text1__slide3{
     background-color: white;
     box-sizing: border-box;
     width: 40%;
-    
     position: absolute;
     top: 53%;
-    /* width: 30%; */
     left: 25%;
     border-radius: 30px;
     font-size: 130%;
     font-weight: 400;
     line-height: 150%;
     padding: 5%; 
-    padding-left: 13%; 
-
-
-
-
+    padding-left: 13%;
     -webkit-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
     -moz-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
     box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
@@ -87,7 +73,6 @@
     background-color: white;
     box-sizing: border-box;
     width: 25%;
-
     position: absolute;
     top: 53%;
     right: 3%;
@@ -96,87 +81,82 @@
     font-weight: 400;
     line-height: 150%;
     padding: 5%;
-
-
-
     -webkit-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
     -moz-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
     box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
-
-
 }
-
 #blue_bubble1__slide3{
     position: absolute;
     width: 4%;
     top: 9.8%;
     left: 22%;
+    animation: blue3 2s infinite linear alternate;
 }
 #blue_bubble2__slide3{
     position: absolute;
     width: 8%;
     top: 20%;
     left: 20%;
+    animation: blue2 4s infinite linear alternate;
 }
 #blue_bubble3__slide3{
     position: absolute;
     width: 4%;
     bottom: 32%;
     left: 2%;
-
+    animation: blue2 3s infinite linear alternate;
 }
 #blue_bubble4__slide3{
     position: absolute;
     width: 9%;
     bottom: 12%;
     left: 25%;
-
+    animation: blue2 4s infinite linear alternate;
 }
 #blue_bubble5__slide3{
     position: absolute;
     width: 16%;
     bottom: -14%;
     left: 23%;
-
+    animation: blue3 5s infinite linear alternate;
 }
 #pink_bubble1__slide3{
     position: absolute;
     width: 13%;
     left: 18.5%;
     top: 40.5%;
+    animation: blue3 5s infinite linear alternate;
 }
 #pink_bubble2__slide3{
     position: absolute;
     width: 8%;
     left: 5%;
     bottom: 20%;
+    animation: blue3 3s infinite linear alternate;
 }
 #bright_pink_bubble__slide3{
     width: 4%;
     position: absolute;
     left: 9.5%;
-    top: 26.5%
+    top: 26.5%;
+    animation: blue2 2s infinite linear alternate;
 }
-
 #btn__slide3{
     height: 9%;
     position: absolute;
     bottom: 13%;
     right: 3%;
-
 }
 #bottle__slide3{
     height: 90%;
     position: absolute;
     bottom: 0%;
     left: 7%;
-
 }
-
-.text__container__slide3{
+.text_container__slide3{
     background-color: white;
     box-sizing: border-box;
-    height: 72%;
+    height: 75%;
     width: 75%;
     border-radius: 30px;
     position: absolute;
@@ -186,10 +166,30 @@
     -moz-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
     box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
 }
-.text__container__header__slide3{
+.text_container__header__slide3{
     margin-top: 4.2%;
     margin-left: 23%;
     font-size: 200%;
     font-size: 150%;
-
+}
+.text_container__slide3 .nums{
+    font-weight: 700;
+    color: #A1D2EA;
+}
+.text_container__slide3 .content{
+    background-color: white;
+    position: absolute;
+    top: 35%;
+    left: 21%;
+    width: 58%;
+    height: 50%;
+}
+.text_container__slide3 .paragraph{
+    margin-top: 10px;
+}
+#slide3__close{
+    position: absolute;
+    width: 6%;
+    top: 5%;
+    right: 3%;
 }

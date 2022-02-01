@@ -28,13 +28,11 @@ function Slide1(){
                 ЗАДАНИЕ</p>
             </div>
             <img className="pink__slide1" src={pink}/>
-            
             <img id="blue2__slide1" src={blue2}/>
             <img id="blue3__slide1" src={blue3}/>
-            
             <img id="blue5__slide1" src={blue5}/>
             <img id="blue5blurred__slide1" src={blue5blurred}/>
-            <img id="btn__slide1__slide1" src={btn}/>
+            <img id="btn__slide1" src={btn}/>
             <img id="logo" src={logo}/>
         </div>
     )

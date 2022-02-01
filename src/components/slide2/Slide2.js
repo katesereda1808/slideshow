@@ -8,14 +8,6 @@ import pink5 from "./images2/pink-5.png";
 import icon from "../images/icon.png";
 import logo from "../images/logo.png";
 
-
-
-
-// import pink from "./images/pink_sperm_1.png";
-
-// import pinkblurred from "./images/layer-4-blurred.png";
-
-
 function Slide2(){
     return(
         <div className="slide2">
@@ -25,8 +17,6 @@ function Slide2(){
             <img id="pink4__slide2" src={pink4}/>
             <img id="pink5__slide2" src={pink5}/>
             <img id="icon" src={icon}/>
-             {/* <img className="pink" src={pink}/> */}
-            {/* <img id="pinkblurred" src={pinkblurred}/>  */}
             <div className="text__slide2">
                 <p>ТЕКСТ<br/>
                     СООБЩЕНИЯ</p>
@@ -37,9 +27,6 @@ function Slide2(){
                 </p>
             </div>
             <img id="logo" src={logo}/>
-
-           
-            
         </div>
     )
 }

@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
+
 html, body{
-    /* width:100%; */
     height: 100%;
     background-size: 100%;
-    
 }
 .slide1{
     font-family: 'Montserrat', sans-serif;
@@ -14,18 +13,16 @@ html, body{
     box-sizing: border-box;
     background-size: 100%;
     background-repeat: no-repeat;
-
+    min-width: 1024px;
+    max-height: 768px;
 }
 .text__slide1{
     position: absolute;
     top: 20%;
     left: 5%;
 }
-
-
 .big_text__slide1{
     font-size: 500%;
-
 }
 .bold__slide1{
     font-weight: 600;
@@ -33,24 +30,20 @@ html, body{
 .pink__slide1{
     position: absolute;
     width: 55%;
-    
     top: 16%;
     right: 13%;
 }
-
 .blue1__slide1{
     position: relative;
     top: 9%;
     width: 10%;
 }
-
 #blue2__slide1{
     width: 6%;
     position: absolute;
     right: 30%;
     top: 7%;
     animation: blue2 3s infinite linear alternate;
-
 }
 #blue3__slide1{
     width: 12%;
@@ -59,7 +52,6 @@ html, body{
     right: 20%;
     animation: blue3 4s infinite linear alternate;
 }
-
 #pink2__slide1{
     width: 30%;
     bottom: 8%;
@@ -85,7 +77,6 @@ html, body{
     right: 5%;
     top:5%;
 }
-
 #blue4__slide1{
     width: 8%;
     position: absolute;
@@ -93,11 +84,12 @@ html, body{
     left: 0%;
     animation: blue2 3s infinite linear alternate;
 }
-#btn__slide1__slide1{
+#btn__slide1{
     height: 9.5%;
     position: absolute;
     bottom: 41%;
-    right: 25%;
+    
+    left: 50%;
 }
 #icon{
     position: absolute;
@@ -111,7 +103,6 @@ html, body{
     height: 2%;
     bottom: 2%;
 }
-
 
 @keyframes blue2 {
     from{ 
