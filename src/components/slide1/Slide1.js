@@ -14,6 +14,9 @@ import icon from "../images/icon.png";
 import logo from "../images/logo.png";
 
 function Slide1(){
+    function goNext(){
+        document.querySelector('.mainPage').scrollLeft += 1024;
+    }
     return(
         <div className="slide1">
             <img id="icon" src={icon}/>
@@ -32,9 +35,10 @@ function Slide1(){
             <img id="blue3__slide1" src={blue3}/>
             <img id="blue5__slide1" src={blue5}/>
             <img id="blue5blurred__slide1" src={blue5blurred}/>
-            <img id="btn__slide1" src={btn}/>
+            <img onClick={goNext} id="btn__slide1" src={btn}/>
             <img id="logo" src={logo}/>
         </div>
     )
 }
+
 export default Slide1;

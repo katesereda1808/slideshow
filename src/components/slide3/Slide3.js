@@ -9,20 +9,34 @@ import calendar from "./images3/calendar.png";
 import plate from "./images3/plate.png";
 import bottle from "./images3/bottle.png";
 import close from "./images3/btn_close.png";
+import back from "./images3/btn_previous3.png";
+import pink_circle from "./images3/circle_pink3.png";
+import hollow_circle from "./images3/circle_hollow3.png";
+import next3 from "./images3/btn_next3.png";
 import icon from "../images/icon.png";
 import logo from "../images/logo.png";
 
 function Slide3(){
     const [pressed, setPressed] = useState(false);
+    const [nextPressed, setNextPressed] = useState(false);
+    function goHome3(){
+        document.querySelector('.mainPage').scrollLeft -= 2048;
+    }
     function handleClick(){
         setPressed(true);
     }
     function handleClose(){
         setPressed(false);
     }
+    function nextPage(){
+        setNextPressed(true);
+    }
+    function previousPage(){
+        setNextPressed(false)
+    }
     return(
         <div className="slide3">
-            <img id="icon" src={icon}/>
+            <img onClick={goHome3} id="icon" src={icon}/>
             <div className="header1__slide3">
                     КЛЮЧЕВОЕ СООБЩЕНИЕ
                 </div>
@@ -45,6 +59,9 @@ function Slide3(){
                 <img onClick={handleClose} id="slide3__close" src={close}/>
                 <div className="text_container__header__slide3">
                     <p>ПРЕИМУЩЕСТВА</p>
+
+                        { !nextPressed &&
+                        <div className="page">
                         <div className="content">
 
                             <p className="paragraph">
@@ -61,6 +78,38 @@ function Slide3(){
                             Faucibus pulvinar elementum integer enim</p>
 
                         </div>
+                        <img className="pink_circle_1page" src={pink_circle}/>
+                        <img className="hollow_circle_1page" src={hollow_circle}/>
+                        </div>
+                        }
+                        {  nextPressed &&
+                        <div className="page">
+                        <div className="content">
+
+                            <p className="paragraph">
+                            <span className="nums">04</span><br/>
+                            Mi bibendum neque egestas congue quisque 
+                            egestas diam</p>
+
+                            <p className="paragraph">
+                            <span className="nums">05</span><br/>
+                            Venenatis lectus magna fringilla urna</p>
+
+                            <p className="paragraph">
+                            <span className="nums">06</span><br/>
+                            Venenatis lectus magna fringilla urna</p>
+
+                        </div>
+                        <img className="pink_circle_2page" src={pink_circle}/>
+                        <img className="hollow_circle_2page" src={hollow_circle}/>
+                        </div>
+                        }
+
+
+
+                    <img onClick={previousPage} className="back3" src={back}/>
+                    
+                    <img onClick={nextPage} className="next3" src={next3}/>
                 </div>
             </div>
             }
@@ -80,4 +129,5 @@ function Slide3(){
         </div>
     )
 }
+
 export default Slide3;
