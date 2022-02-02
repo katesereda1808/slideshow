@@ -20,22 +20,22 @@ function Slide1(){
     return(
         <div className="slide1">
             <img id="icon" src={icon}/>
-            <img className="blue1__slide1" src={blue1}/>
-            <img id="blue2blurred__slide1" src={blue2blurred}/>
-            <img id="pink2__slide1" src={pink2}/>
-            <img id="blue4__slide1" src={blue4}/>
-            <div className="text__slide1">
+            <img className="slide1__blue1" src={blue1}/>
+            <img id="slide1__blue2blurred" src={blue2blurred}/>
+            <img id="slide1__pink2" src={pink2}/>
+            <img id="slide1__blue4" src={blue4}/>
+            <div className="slide1__text">
                 <p>ПРИВЕТ,</p>
-                <p className="big_text__slide1">ЭТО <span className="bold__slide1">НЕ</span><br></br>
+                <p className="slide1__big_text">ЭТО <span className="slide1__bold">НЕ</span><br></br>
                 КОММЕРЧЕСКОЕ<br></br>
                 ЗАДАНИЕ</p>
             </div>
-            <img className="pink__slide1" src={pink}/>
-            <img id="blue2__slide1" src={blue2}/>
-            <img id="blue3__slide1" src={blue3}/>
-            <img id="blue5__slide1" src={blue5}/>
-            <img id="blue5blurred__slide1" src={blue5blurred}/>
-            <img onClick={goNext} id="btn__slide1" src={btn}/>
+            <img className="slide1__pink" src={pink}/>
+            <img id="slide1__blue2" src={blue2}/>
+            <img id="slide1__blue3" src={blue3}/>
+            <img id="slide1__blue5" src={blue5}/>
+            <img id="slide1__blue5blurred" src={blue5blurred}/>
+            <img onClick={goNext} id="slide1__btn" src={btn}/>
             <img id="logo" src={logo}/>
         </div>
     )

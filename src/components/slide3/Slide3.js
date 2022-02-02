@@ -13,6 +13,7 @@ import back from "./images3/btn_previous3.png";
 import pink_circle from "./images3/circle_pink3.png";
 import hollow_circle from "./images3/circle_hollow3.png";
 import next3 from "./images3/btn_next3.png";
+import faded3 from "./images3/fadedbg3.png";
 import icon from "../images/icon.png";
 import logo from "../images/logo.png";
 
@@ -32,36 +33,41 @@ function Slide3(){
         setNextPressed(true);
     }
     function previousPage(){
-        setNextPressed(false)
+        setNextPressed(false);
     }
     return(
         <div className="slide3">
             <img onClick={goHome3} id="icon" src={icon}/>
-            <div className="header1__slide3">
+            <div className="slide3__header1">
                     КЛЮЧЕВОЕ СООБЩЕНИЕ
                 </div>
-            <div id="text1__slide3">
+            <div id="slide3__text1">
                     Ehicula ipsum a arcu 
                     cursus vitae. Eu non 
                     diam phasellus 
                     vestibulum lorem sed 
                     risus ultricies
             </div>
-            <div id="text2__slide3">
+            <div id="slide3__text2">
                     A arcu<br/>
                     cursus vitae
             </div>
-            <img id="calendar__slide3" src={calendar}/>
-            <img id="plate__slide3" src={plate}/>
-            <img onClick={handleClick} id="btn__slide3" src={btn}/>
+            <img id="slide3__calendar" src={calendar}/>
+            <img id="slide3__plate" src={plate}/>
+            <img onClick={handleClick} id="slide3__btn" src={btn}/>
             {pressed&&
-            <div className="text_container__slide3">
-                <img onClick={handleClose} id="slide3__close" src={close}/>
-                <div className="text_container__header__slide3">
+                <div className="newpage">
+                <img src={faded3}/>
+                    <div className="slide3__text_container">
+                
+                    <img onClick={handleClose} id="slide3__close" src={close}/>
+                    <div className="slide3__text_container__header">
                     <p>ПРЕИМУЩЕСТВА</p>
 
-                        { !nextPressed &&
-                        <div className="page">
+                    { !nextPressed &&
+                        
+                    <div className="page">
+                           
                         <div className="content">
 
                             <p className="paragraph">
@@ -70,19 +76,19 @@ function Slide3(){
                             adipiscing elit</p>
 
                             <p className="paragraph">
-                            <span className="nums">01</span><br/>
+                            <span className="nums">02</span><br/>
                             Faucibus pulvinar elementum integer enim</p>
 
                             <p className="paragraph">
-                            <span className="nums">01</span><br/>
+                            <span className="nums">03</span><br/>
                             Faucibus pulvinar elementum integer enim</p>
 
                         </div>
                         <img className="pink_circle_1page" src={pink_circle}/>
                         <img className="hollow_circle_1page" src={hollow_circle}/>
                         </div>
-                        }
-                        {  nextPressed &&
+                    }
+                    {  nextPressed &&
                         <div className="page">
                         <div className="content">
 
@@ -103,27 +109,28 @@ function Slide3(){
                         <img className="pink_circle_2page" src={pink_circle}/>
                         <img className="hollow_circle_2page" src={hollow_circle}/>
                         </div>
-                        }
+                    }
 
 
 
-                    <img onClick={previousPage} className="back3" src={back}/>
+                        <img onClick={previousPage} className="slide3__back3" src={back}/>
                     
-                    <img onClick={nextPage} className="next3" src={next3}/>
+                        <img onClick={nextPage} className="slide3__next3" src={next3}/>
+                    </div>
                 </div>
             </div>
             }
-            <img id="blue_bubble1__slide3" src={blue_bubble}/>
-            <img id="blue_bubble3__slide3" src={blue_bubble}/>
-            <img id="bright_pink_bubble__slide3" src={bright_pink_bubble}/>
-            <img id="blue_bubble4__slide3" src={blue_bubble}/>
-            <img id="pink_bubble1__slide3" src={pink_bubble2}/>
-            <img id="bottle__slide3" src={bottle}/>
-            <img id="blue_bubble2__slide3" src={blue_bubble}/>
-            <img id="pink_bubble2__slide3" src={pink_bubble}/>
-            <img id="blue_bubble5__slide3" src={blue_bubble}/>
-            <div id="header2__slide3">
-                    BREND<span id="bold__slide3">XY</span>
+            <img id="slide3__blue_bubble1" src={blue_bubble}/>
+            <img id="slide3__blue_bubble3" src={blue_bubble}/>
+            <img id="slide3__bright_pink_bubble" src={bright_pink_bubble}/>
+            <img id="slide3__blue_bubble4" src={blue_bubble}/>
+            <img id="slide3__pink_bubble1" src={pink_bubble2}/>
+            <img id="slide3__bottle" src={bottle}/>
+            <img id="slide3__blue_bubble2" src={blue_bubble}/>
+            <img id="slide3__pink_bubble2" src={pink_bubble}/>
+            <img id="slide3__blue_bubble5" src={blue_bubble}/>
+            <div id="slide3__header2">
+                    BREND<span id="slide3__bold">XY</span>
             </div>
             <img id="logo" src={logo}/>
         </div>

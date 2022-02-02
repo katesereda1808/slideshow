@@ -25,36 +25,67 @@
     height: 2%;
     bottom: 2%;
 }
-.header__slide2{
+.slide2__header{
     font-size: 200%;
     font-weight: 400;
     margin-left: 10%;
     margin-top: 10%;
 }
 
-.text__container__slide2{
+.slide2__scrollingarea{
     position: absolute;
-    
-    background-color: white;
-    width: 70%;
-    height: 60%;
-    
+    width: 80%;
+    height: 58%;
     box-sizing: border-box;
     line-height: 150%;
     font-size: 150%;
     overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
     direction: rtl;
-    left: 15%;
+    left: 10%;
     margin-top: 5%;
     padding: 3%;
     border-radius: 40px;
-    -webkit-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
-    -moz-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
-    box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
-    overflow-y: auto;
-    overflow-x: hidden;
+    
 }
-.text__container__slide2 .text__slide2{
+.slide2__block1{
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    width: 70%;
+    height: 5%;
+    left: 19%;
+    top: 30.16%;
+    position: absolute;
+    border-radius: 100px;
+}
+.slide2__block2{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    width: 70%;
+    height: 5%;
+    left: 19%;
+    top: 83.6%;
+    position: absolute;
+    border-radius: 100px;
+
+}
+.slide2__text{
+    margin-left: 50px;
+}
+.slide2__txt_bg{
+    width: 100%;
+    position: absolute;
+    bottom: 0.5%;
+    left: 5%;
+
+    /* -webkit-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
+    -moz-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
+    box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11); */
+
+    
+    
+
+}
+.slide2__scrollingarea .slide2__text{
     direction: ltr;
 }
 /* .text__container__slide2::-webkit-scrollbar{
@@ -72,7 +103,7 @@
 
 
 
-.text__container__slide2::-webkit-scrollbar {
+.slide2__scrollingarea::-webkit-scrollbar {
     width: 30px;
   }
   
@@ -89,9 +120,8 @@
 
   }
   
-  .text__container__slide2::-webkit-scrollbar-thumb {
+  .slide2__scrollingarea::-webkit-scrollbar-thumb {
     height: fit-content;
-    /* background-image: url('./images2/scrollbar2.png'); */
     background-color: rgb(219, 106, 172);
     border-radius: 100px;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
@@ -104,35 +134,35 @@
 
 
 
-#pink1__slide2{
+#slide2__pink1{
     position: absolute;
     width: 60%;
     top: 18%;
     right: 0%;
     animation: pink2 12s forwards;
 }
-#pink2__slide2{
+#slide2__pink2{
     position: absolute;
     width: 50%;
     top: 13%;
     right: -8%;
     animation: pink2 11s forwards;
 }
-#pink3__slide2{
+#slide2__pink3{
     position: absolute;
     width: 30%;
     top: 10%;
     right: -4%;
     animation: pink2 13s forwards;
 }
-#pink4__slide2{
+#slide2__pink4{
     position: absolute;
     width: 15%;
     bottom: 30%;
     right: 0%;
     animation: pink2 8s forwards;
 }
-#pink5__slide2{
+#slide2__pink5{
     position: absolute;
     width: 15%;
     bottom: 16%;

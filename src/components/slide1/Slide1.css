@@ -16,75 +16,75 @@ html, body{
     min-width: 1024px;
     max-height: 768px;
 }
-.text__slide1{
+.slide1__text{
     position: absolute;
     top: 20%;
     left: 5%;
 }
-.big_text__slide1{
+.slide1__big_text{
     font-size: 500%;
 }
-.bold__slide1{
+.slide1__bold{
     font-weight: 600;
 }
-.pink__slide1{
+.slide1__pink{
     position: absolute;
     width: 55%;
     top: 16%;
     right: 13%;
 }
-.blue1__slide1{
+.slide1__blue1{
     position: relative;
     top: 9%;
     width: 10%;
 }
-#blue2__slide1{
+#slide1__blue2{
     width: 6%;
     position: absolute;
     right: 30%;
     top: 7%;
-    animation: blue2 3s infinite linear alternate;
+    animation: blue2 2s infinite linear alternate;
 }
-#blue3__slide1{
+#slide1__blue3{
     width: 12%;
     position: absolute;
     top: 15%;
     right: 20%;
-    animation: blue3 4s infinite linear alternate;
+    animation: blue3 3s infinite linear alternate;
 }
-#pink2__slide1{
+#slide1__pink2{
     width: 30%;
     bottom: 8%;
     left: 0px;
     position: absolute;
 }
-#blue5__slide1{
+#slide1__blue5{
     width: 20%;
     bottom: 0px;
     right: 25%;
     position: absolute;
     animation: blue5 4s infinite linear alternate;
 }
-#blue5blurred__slide1{
+#slide1__blue5blurred{
     width: 10%;
     position: absolute;
     bottom: 10%;
     left: 35%;
 }
-#blue2blurred__slide1{
+#slide1__blue2blurred{
     width: 7%;
     position: absolute;
     right: 5%;
     top:5%;
 }
-#blue4__slide1{
+#slide1__blue4{
     width: 8%;
     position: absolute;
     bottom: 35%;
     left: 0%;
     animation: blue2 3s infinite linear alternate;
 }
-#btn__slide1{
+#slide1__btn{
     height: 9.5%;
     position: absolute;
     bottom: 41%;
@@ -106,29 +106,29 @@ html, body{
 
 @keyframes blue2 {
     from{ 
-        transform: translateX(0%);
+        transform: translate(0%, 0%);
     }
     to{
-        transform: translateX(30%);
+        transform: translate(40%, 20%);
     }
 }
 
 @keyframes blue3 {
     from{ 
-        transform: translateX(0%);
+        transform: translate(30%, 40%);
     }
     to{
-        transform: translateX(-30%);
+        transform: translate(-30%, -20%) rotate(90deg);
     }
 }
 
 @keyframes blue5 {
     from{ 
         transform: translateX(0%);
-        size: 100%;
+        width: 20%;
     }
     to{
         transform: translateX(-30%);
-        size: 150%;
+        width: 30%;
     }
 }

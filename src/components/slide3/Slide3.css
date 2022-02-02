@@ -25,34 +25,34 @@
     height: 2%;
     bottom: 2%;
 }
-#calendar__slide3{
+#slide3__calendar{
     width: 8%;
     position: absolute;
     bottom: 42%;
     right: 16%;
 }
-#plate__slide3{
+#slide3__plate{
     width: 8%;
     position: absolute;
     bottom: 42%;
     right: 54%;
 }
-.header1__slide3{
+.slide3__header1{
     position: absolute;
     left: 35.7%;
     font-size: 150%;
     top: 20%;
 }
-#header2__slide3{
+#slide3__header2{
     position: absolute;
     left: 35%;
     top: 27%;
     font-size: 550%;
 }
-#bold__slide3{
+#slide3__bold{
     font-weight: 600;
 }
-#text1__slide3{
+#slide3__text1{
     background-color: white;
     box-sizing: border-box;
     width: 40%;
@@ -69,7 +69,7 @@
     -moz-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
     box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
 }
-#text2__slide3{
+#slide3__text2{
     background-color: white;
     box-sizing: border-box;
     width: 25%;
@@ -85,75 +85,19 @@
     -moz-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
     box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
 }
-#blue_bubble1__slide3{
-    position: absolute;
-    width: 4%;
-    top: 9.8%;
-    left: 22%;
-    animation: blue3 2s infinite linear alternate;
-}
-#blue_bubble2__slide3{
-    position: absolute;
-    width: 8%;
-    top: 20%;
-    left: 20%;
-    animation: blue2 4s infinite linear alternate;
-}
-#blue_bubble3__slide3{
-    position: absolute;
-    width: 4%;
-    bottom: 32%;
-    left: 2%;
-    animation: blue2 3s infinite linear alternate;
-}
-#blue_bubble4__slide3{
-    position: absolute;
-    width: 9%;
-    bottom: 12%;
-    left: 25%;
-    animation: blue2 4s infinite linear alternate;
-}
-#blue_bubble5__slide3{
-    position: absolute;
-    width: 16%;
-    bottom: -14%;
-    left: 23%;
-    animation: blue3 5s infinite linear alternate;
-}
-#pink_bubble1__slide3{
-    position: absolute;
-    width: 13%;
-    left: 18.5%;
-    top: 40.5%;
-    animation: blue3 5s infinite linear alternate;
-}
-#pink_bubble2__slide3{
-    position: absolute;
-    width: 8%;
-    left: 5%;
-    bottom: 20%;
-    animation: blue3 3s infinite linear alternate;
-}
-#bright_pink_bubble__slide3{
-    width: 4%;
-    position: absolute;
-    left: 9.5%;
-    top: 26.5%;
-    animation: blue2 2s infinite linear alternate;
-}
-#btn__slide3{
+#slide3__btn{
     height: 9%;
     position: absolute;
     bottom: 13%;
     right: 3%;
 }
-#bottle__slide3{
+#slide3__bottle{
     height: 90%;
     position: absolute;
     bottom: 0%;
     left: 7%;
 }
-.text_container__slide3{
+.slide3__text_container{
     background-color: white;
     box-sizing: border-box;
     height: 78%;
@@ -166,17 +110,17 @@
     -moz-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
     box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
 }
-.text_container__header__slide3{
+.slide3__text_container__header{
     margin-top: 4.2%;
     margin-left: 23%;
     font-size: 200%;
     font-size: 150%;
 }
-.text_container__slide3 .nums{
+.slide3__text_container .nums{
     font-weight: 700;
     color: #A1D2EA;
 }
-.text_container__slide3 .content{
+.slide3__text_container .content{
     background-color: white;
     position: absolute;
     top: 35%;
@@ -184,7 +128,7 @@
     width: 58%;
     height: 50%;
 }
-.text_container__slide3 .paragraph{
+.slide3__text_container .paragraph{
     margin-top: 10px;
 }
 #slide3__close{
@@ -193,7 +137,7 @@
     top: 5%;
     right: 3%;
 }
-.back3{
+.slide3__back3{
     position: absolute;
     width: 1%;
     bottom: 5%;
@@ -225,14 +169,106 @@
     bottom: 5%;
     left: 24.5%;
 }
-
-
-
-.next3{
+.slide3__next3{
     position: absolute;
     width: 1%;
     bottom: 5%;
     left: 31.5%;
+}
 
+#slide3__blue_bubble1{
+    position: absolute;
+    width: 4%;
+    top: 9.8%;
+    left: 22%;
+    animation: blue3 2s infinite linear alternate;
+}
+#slide3__blue_bubble2{
+    position: absolute;
+    width: 8%;
+    top: 20%;
+    left: 20%;
+    animation: bluebubble2 2s infinite linear alternate;
+}
+#slide3__blue_bubble3{
+    position: absolute;
+    width: 4%;
+    bottom: 32%;
+    left: 2%;
+    animation: bluebubble3 1s infinite linear alternate;
+}
+#slide3__blue_bubble4{
+    position: absolute;
+    width: 9%;
+    bottom: 12%;
+    left: 25%;
+    animation: blue2 4s infinite linear alternate;
+}
+#slide3__blue_bubble5{
+    position: absolute;
+    width: 16%;
+    bottom: -14%;
+    left: 23%;
+    animation: blue3 5s infinite linear alternate;
+}
+#slide3__pink_bubble1{
+    position: absolute;
+    width: 13%;
+    left: 18.5%;
+    top: 40.5%;
+    animation: pinkbubble1 4s infinite linear alternate;
+}
+#slide3__pink_bubble2{
+    position: absolute;
+    width: 8%;
+    left: 5%;
+    bottom: 20%;
+    animation: blue3 3s infinite linear alternate;
+}
+#slide3__bright_pink_bubble{
+    width: 4%;
+    position: absolute;
+    left: 9.5%;
+    top: 26.5%;
+    animation: bright_pink_bubble 2s infinite linear alternate;
+}
 
+@keyframes bluebubble2 {
+    from{ 
+        transform: translate(0%, 0%);
+    }
+    to{
+        transform: translate(30%, 40%);
+    }
+}
+
+@keyframes pinkbubble1 {
+    from{ 
+        transform: translate(25%, -30%);
+    }
+    to{
+        transform: translate(-20%,30%);
+    }
+}
+
+@keyframes bright_pink_bubble {
+    from{ 
+        transform: translateX(0%);
+        size: 100%;
+    }
+    to{
+        transform: translateX(75%);
+        size: 150%;
+    }
+}
+
+@keyframes bluebubble3 {
+    from{
+        transform: translate(0%, 0%);
+        size: 100%;
+    }
+    to{
+        transform: translate(60%, 120%);
+        size: 300%;
+    }
 }
