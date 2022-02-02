@@ -25,21 +25,25 @@
     height: 2%;
     bottom: 2%;
 }
-.text__slide2{
+.header__slide2{
     font-size: 200%;
     font-weight: 400;
     margin-left: 10%;
     margin-top: 10%;
 }
+
 .text__container__slide2{
     position: absolute;
+    
+    background-color: white;
+    width: 70%;
+    height: 60%;
+    
     box-sizing: border-box;
     line-height: 150%;
     font-size: 150%;
-    background-color: white;
-    width: 70%;
-    height: 50%;
     overflow: scroll;
+    direction: rtl;
     left: 15%;
     margin-top: 5%;
     padding: 3%;
@@ -49,6 +53,9 @@
     box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
     overflow-y: auto;
     overflow-x: hidden;
+}
+.text__container__slide2 .text__slide2{
+    direction: ltr;
 }
 /* .text__container__slide2::-webkit-scrollbar{
     
@@ -65,29 +72,29 @@
 
 
 
-
-
 .text__container__slide2::-webkit-scrollbar {
-    width: 10px;
+    width: 30px;
   }
   
   ::-webkit-scrollbar-track {
     background: linear-gradient(
       to left,
       rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0) 30%,
+      rgba(0, 0, 0, 0) 35%,
       rgba(0, 0, 0, 1) 50%,
-      rgba(0, 0, 0, 0) 80%,
+      rgba(0, 0, 0, 0) 60%,
       rgba(0, 0, 0, 0) 100%
     );
-    border-radius: 5px;
+    border-radius: 47%;
 
   }
   
   .text__container__slide2::-webkit-scrollbar-thumb {
-    background-color: #000;
-    width: fit-content;
-    background-image: url('./images2/scrollbar2.png');
+    height: fit-content;
+    /* background-image: url('./images2/scrollbar2.png'); */
+    background-color: rgb(219, 106, 172);
+    border-radius: 100px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
 

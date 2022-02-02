@@ -7,7 +7,11 @@ import "./MainPage.css";
 function MainPage(){
     useEffect(()=>{
         window.addEventListener('wheel', (e)=>{
-          document.querySelector('.mainPage').scrollLeft += e.deltaX;
+                if(e.delayX>0){
+                    console.log('6vbyvb')
+                }
+                document.querySelector('.mainPage').scrollLeft += e.deltaX;
+          
         })
         return()=>{
             window.removeEventListener('wheel', (e)=>{
