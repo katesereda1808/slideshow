@@ -6,8 +6,7 @@ import pink3 from "./images2/pink-3.png";
 import pink4 from "./images2/pink-4.png";
 import pink5 from "./images2/pink-5.png";
 import txt_bg from "./images2/txt_bg2.png"
-import icon from "../images/icon.png";
-import logo from "../images/logo.png";
+
 
 function Slide2(){
     function goHome2(){
@@ -20,7 +19,6 @@ function Slide2(){
             <img id="slide2__pink3" src={pink3}/>
             <img id="slide2__pink4" src={pink4}/>
             <img id="slide2__pink5" src={pink5}/>
-            <img onClick={goHome2} id="icon" src={icon}/>
             <div className="slide2__header">
                 <p>ТЕКСТ<br/>
                     СООБЩЕНИЯ</p>
@@ -41,8 +39,7 @@ function Slide2(){
                     <div className="slide2__block2">
                     </div>
                 </div>
-            
-                <img id="logo" src={logo}/>
+
         </div>
     )
 }

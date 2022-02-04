@@ -10,20 +10,10 @@
     font-family: 'Montserrat', sans-serif;
     position: relative;
     overflow: hidden;
+    max-width: 1024px;
     min-width: 1024px;
+    min-height: 768px;
     max-height: 768px;
-}
-#icon{
-    position: absolute;
-    margin-left: 10%;
-    margin-top: 3%;
-    height: 4%;
-}
-#logo{
-    position: absolute;
-    left: 10%;
-    height: 2%;
-    bottom: 2%;
 }
 #slide3__calendar{
     width: 8%;
@@ -195,14 +185,14 @@
     width: 4%;
     bottom: 32%;
     left: 2%;
-    animation: bluebubble3 1s infinite linear alternate;
+    animation: bluebubble3 2s infinite linear alternate;
 }
 #slide3__blue_bubble4{
     position: absolute;
     width: 9%;
     bottom: 12%;
     left: 25%;
-    animation: blue2 4s infinite linear alternate;
+    animation: bluebubble4 4s infinite linear alternate;
 }
 #slide3__blue_bubble5{
     position: absolute;
@@ -268,7 +258,16 @@
         size: 100%;
     }
     to{
-        transform: translate(60%, 120%);
+        transform: translate(80%, 60%);
         size: 300%;
+    }
+}
+
+@keyframes bluebubble4 {
+    from{ 
+        transform: translate(10%, 40%);
+    }
+    to{
+        transform: translate(-30%, -20%) rotate(90deg);
     }
 }

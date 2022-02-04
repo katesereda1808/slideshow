@@ -10,7 +10,9 @@
     font-family: 'Montserrat', sans-serif;
     position: relative;
     overflow: hidden;
+    max-width: 1024px;
     min-width: 1024px;
+    min-height: 768px;
     max-height: 768px;
 }
 #icon{
@@ -76,33 +78,10 @@
     position: absolute;
     bottom: 0.5%;
     left: 5%;
-
-    /* -webkit-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
-    -moz-box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11);
-    box-shadow: 0px -4px 18px 9px rgba(34, 60, 80, 0.11); */
-
-    
-    
-
 }
 .slide2__scrollingarea .slide2__text{
     direction: ltr;
 }
-/* .text__container__slide2::-webkit-scrollbar{
-    
-    width: 10px;
-    background-color: rgb(0, 0, 0);
-    width: 2px;
-}
-.text__container__slide2::-webkit-scrollbar-thumb{
-    width: 30px;
-    background-image: url('./images2/scrollbar2.png');
-}
- */
-
-
-
-
 .slide2__scrollingarea::-webkit-scrollbar {
     width: 30px;
   }
@@ -117,23 +96,13 @@
       rgba(0, 0, 0, 0) 100%
     );
     border-radius: 47%;
-
   }
-  
   .slide2__scrollingarea::-webkit-scrollbar-thumb {
     height: fit-content;
     background-color: rgb(219, 106, 172);
     border-radius: 100px;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
   }
-
-
-
-
-
-
-
-
 #slide2__pink1{
     position: absolute;
     width: 60%;

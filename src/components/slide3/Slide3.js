@@ -14,8 +14,6 @@ import pink_circle from "./images3/circle_pink3.png";
 import hollow_circle from "./images3/circle_hollow3.png";
 import next3 from "./images3/btn_next3.png";
 import faded3 from "./images3/fadedbg3.png";
-import icon from "../images/icon.png";
-import logo from "../images/logo.png";
 
 function Slide3(){
     const [pressed, setPressed] = useState(false);
@@ -37,7 +35,6 @@ function Slide3(){
     }
     return(
         <div className="slide3">
-            <img onClick={goHome3} id="icon" src={icon}/>
             <div className="slide3__header1">
                     КЛЮЧЕВОЕ СООБЩЕНИЕ
                 </div>
@@ -110,9 +107,6 @@ function Slide3(){
                         <img className="hollow_circle_2page" src={hollow_circle}/>
                         </div>
                     }
-
-
-
                         <img onClick={previousPage} className="slide3__back3" src={back}/>
                     
                         <img onClick={nextPage} className="slide3__next3" src={next3}/>
@@ -132,7 +126,6 @@ function Slide3(){
             <div id="slide3__header2">
                     BREND<span id="slide3__bold">XY</span>
             </div>
-            <img id="logo" src={logo}/>
         </div>
     )
 }

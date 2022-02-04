@@ -13,7 +13,9 @@ html, body{
     box-sizing: border-box;
     background-size: 100%;
     background-repeat: no-repeat;
+    max-width: 1024px;
     min-width: 1024px;
+    min-height: 768px;
     max-height: 768px;
 }
 .slide1__text{
@@ -90,18 +92,6 @@ html, body{
     bottom: 41%;
     
     left: 50%;
-}
-#icon{
-    position: absolute;
-    margin-left: 10%;
-    margin-top: 3%;
-    height: 4%;
-}
-#logo{
-    position: absolute;
-    left: 10%;
-    height: 2%;
-    bottom: 2%;
 }
 
 @keyframes blue2 {
