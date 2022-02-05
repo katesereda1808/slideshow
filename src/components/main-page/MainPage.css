@@ -4,6 +4,7 @@ html, body{
     scroll-behavior: smooth;
 } 
 .mainPage{
+    position: relative;
     overflow-x:scroll;
     overflow-y: hidden;
     max-width: 1024px;
@@ -18,15 +19,9 @@ html, body{
 .section{
     scroll-snap-align: start;
 }
-.icon{
+/* .icon{
     position: absolute;
     top: 4%;
-    height: 4%;
+    height: 2rem;
     left: 10%;
-}
-.logo{
-    position: absolute;
-    left: 10%;
-    height: 2%;
-    bottom: 2%;
-}
+} */

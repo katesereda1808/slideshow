@@ -21,7 +21,6 @@
     margin-left: 10%;
     margin-top: 10%;
 }
-
 .slide2__scrollingarea{
     position: absolute;
     width: 80%;
@@ -72,8 +71,7 @@
 .slide2__scrollingarea::-webkit-scrollbar {
     width: 30px;
   }
-  
-  ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: linear-gradient(
       to left,
       rgba(0, 0, 0, 0) 0%,
@@ -83,13 +81,13 @@
       rgba(0, 0, 0, 0) 100%
     );
     border-radius: 47%;
-  }
-  .slide2__scrollingarea::-webkit-scrollbar-thumb {
+}
+.slide2__scrollingarea::-webkit-scrollbar-thumb {
     height: fit-content;
     background-color: rgb(219, 106, 172);
     border-radius: 100px;
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
-  }
+}
 #slide2__pink1{
     position: absolute;
     width: 60%;

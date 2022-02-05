@@ -1,6 +1,12 @@
 .homebtn{
     position: absolute;
     top: 4%;
-    height: 4%;
+    height: 2rem;
     left: 10%;
+}
+.logo{
+    position: absolute;
+    left: 10%;
+    height: 0.8rem;
+    top: 740px;
 }
