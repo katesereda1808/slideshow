@@ -15,18 +15,6 @@
     min-height: 768px;
     max-height: 768px;
 }
-#icon{
-    position: absolute;
-    margin-left: 10%;
-    margin-top: 3%;
-    height: 4%;
-}
-#logo{
-    position: absolute;
-    left: 10%;
-    height: 2%;
-    bottom: 2%;
-}
 .slide2__header{
     font-size: 200%;
     font-weight: 400;
@@ -68,7 +56,6 @@
     top: 83.6%;
     position: absolute;
     border-radius: 100px;
-
 }
 .slide2__text{
     margin-left: 50px;

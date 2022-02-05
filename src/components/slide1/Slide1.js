@@ -10,7 +10,6 @@ import blue4 from "./images1/bakti_1.png";
 import blue5 from "./images1/layer-4.png";
 import blue5blurred from "./images1/layer-4-blurred.png";
 import btn from "./images1/btn1.png";
-import icon from "../images/icon.png";
 
 function Slide1(props){
     return(
