@@ -18,9 +18,6 @@ import faded3 from "./images3/fadedbg3.png";
 function Slide3(){
     const [pressed, setPressed] = useState(false);
     const [nextPressed, setNextPressed] = useState(false);
-    function goHome3(){
-        document.querySelector('.mainPage').scrollLeft -= 2048;
-    }
     function handleClick(){
         setPressed(true);
     }

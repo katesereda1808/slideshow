@@ -7,18 +7,16 @@ import pink4 from "./images2/pink-4.png";
 import pink5 from "./images2/pink-5.png";
 import txt_bg from "./images2/txt_bg2.png"
 
-
 function Slide2(){
-    function goHome2(){
-        document.querySelector('.mainPage').scrollLeft -= 1024;
-    }
     return(
         <div className="slide2">
-            <img id="slide2__pink1" src={pink1}/>
-            <img id="slide2__pink2" src={pink2}/>
-            <img id="slide2__pink3" src={pink3}/>
-            <img id="slide2__pink4" src={pink4}/>
-            <img id="slide2__pink5" src={pink5}/>
+            <div className="slide2__pink">
+                <img id="slide2__pink1" src={pink1}/>
+                <img id="slide2__pink2" src={pink2}/>
+                <img id="slide2__pink3" src={pink3}/>
+                <img id="slide2__pink4" src={pink4}/>
+                <img id="slide2__pink5" src={pink5}/>
+            </div>
             <div className="slide2__header">
                 <p>ТЕКСТ<br/>
                     СООБЩЕНИЯ</p>

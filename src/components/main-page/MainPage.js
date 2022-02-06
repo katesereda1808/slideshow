@@ -1,4 +1,4 @@
-import React,{useEffect, useState, useRef, forwardRef} from "react";
+import React from "react";
 import Slide1 from "../slide1/Slide1";
 import Slide2 from "../slide2/Slide2";
 import Slide3 from "../slide3/Slide3";
@@ -6,7 +6,6 @@ import HomeBtn from "../HomeBtn";
 import "./MainPage.css";
 
 function MainPage(){
-
     const goHome=()=>{
         ref.current.scrollTo({
                 top:0,
@@ -18,10 +17,7 @@ function MainPage(){
         ref.current.scrollTo({
             left:1024,
             behavior: "smooth"
-        })
-    }
-    const launchAnimation=()=>{
-
+        });
     }
     const ref = React.createRef();
     return(
@@ -31,8 +27,7 @@ function MainPage(){
                 <div className="section"><Slide2/></div>
                 <div className="section"><Slide3/></div>
             </div>
-            <HomeBtn  gohome={goHome}/>
-            {/* <img className="logo" src={logo}/> */}
+            <HomeBtn gohome={goHome}/>
         </div>
     )
 }
