@@ -1,7 +1,7 @@
 import React from "react";
 import "./HomeBtn.css";
-import icon from "./images/icon.png";
-import logo from "./images/logo.png";
+import icon from "../images/icon.png";
+import logo from "../images/logo.png";
 
 function HomeBtn(props){
     return(

@@ -2,7 +2,7 @@ import React from "react";
 import Slide1 from "../slide1/Slide1";
 import Slide2 from "../slide2/Slide2";
 import Slide3 from "../slide3/Slide3";
-import HomeBtn from "../HomeBtn";
+import HomeBtn from "../home-btn/HomeBtn";
 import "./MainPage.css";
 
 function MainPage(){
@@ -20,15 +20,16 @@ function MainPage(){
         });
     }
     const ref = React.createRef();
+
     return(
-        <div>
+        <>
             <div ref={ref} className="mainPage">
-                <div className="section"><Slide1 gonext={goNext}/></div>
-                <div className="section"><Slide2/></div>
-                <div className="section"><Slide3/></div>
+                <Slide1 gonext={goNext}/>
+                <Slide2/>
+                <Slide3/>
             </div>
             <HomeBtn gohome={goHome}/>
-        </div>
+        </>
     )
 }
 export default MainPage;

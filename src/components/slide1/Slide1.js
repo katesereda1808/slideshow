@@ -11,26 +11,27 @@ import blue5 from "./images1/layer-4.png";
 import blue5blurred from "./images1/layer-4-blurred.png";
 import btn from "./images1/btn1.png";
 
-function Slide1(props){
+function Slide1({gonext}){
     return(
-        <div className="slide1">
-            <img className="slide1__blue1" src={blue1}/>
-            <img id="slide1__blue2blurred" src={blue2blurred}/>
-            <img id="slide1__pink2" src={pink2}/>
-            <img id="slide1__blue4" src={blue4}/>
-            <div className="slide1__text">
-                <p>ПРИВЕТ,</p>
-                <p className="slide1__big_text">ЭТО <span className="slide1__bold">НЕ</span><br></br>
+        <div className="section">
+            <div className="slide1">
+                <img className="slide1__blue1" src={blue1}/>
+                <img id="slide1__blue2blurred" src={blue2blurred}/>
+                <img id="slide1__pink2" src={pink2}/>
+                <img id="slide1__blue4" src={blue4}/>
+                <div className="slide1__text">
+                    <p>ПРИВЕТ,</p>
+                    <p className="slide1__big_text">ЭТО <span className="slide1__bold">НЕ</span><br></br>
                 КОММЕРЧЕСКОЕ<br></br>
                 ЗАДАНИЕ</p>
+                </div>
+                <img className="slide1__pink" src={pink}/>
+                <img id="slide1__blue2" src={blue2}/>
+                <img id="slide1__blue3" src={blue3}/>
+                <img id="slide1__blue5" src={blue5}/>
+                <img id="slide1__blue5blurred" src={blue5blurred}/>
+                <img onClick={gonext} id="slide1__btn" src={btn}/>
             </div>
-            <img className="slide1__pink" src={pink}/>
-            <img id="slide1__blue2" src={blue2}/>
-            <img id="slide1__blue3" src={blue3}/>
-            <img id="slide1__blue5" src={blue5}/>
-            <img id="slide1__blue5blurred" src={blue5blurred}/>
-            <img onClick={props.gonext} id="slide1__btn" src={btn}/>
-            
         </div>
     )
 }
